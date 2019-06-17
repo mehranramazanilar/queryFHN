@@ -14,7 +14,10 @@ var myJson = [
 {firstName: "Babak", lastName: "Ramazanilar"}
 ];  
 var jsonString = JSON.stringify(myJson);
+
 //display the items with lastname = ramazanilar
 var result = jsonString.queryFHN("lastName", "Ramazanilar");
-//result will be : [{firstName: "Mehran", lastName: "Ramazanilar"}, {firstName: "Babak", lastName: "Ramazanilar"}]
+
+//result will be : 
+//[{firstName: "Mehran", lastName: "Ramazanilar"}, {firstName: "Babak", lastName: "Ramazanilar"}]
 ```
